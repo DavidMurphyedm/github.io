@@ -1,23 +1,41 @@
-* {
+/* * {
     font-family: 'Courgette', cursive;
     font-family: 'Roboto', sans-serif;      
-}
+} */
+
+
+*  {
+        font-family: "Racing Sans One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+        h1, h2, h3, h4, h5, h6 {
+            font-family: "Racing Sans One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
 
 body{
-    background-color: #f4f4f4;
+    background-color: #d2232a;
 }
 
 nav, .nav{
-    background-color:  lightslategray;
+    background-color:  #651114;
     
 
 }
+
+
+#cont {
+    background-color: orange;
+}
 .nav-link {
-    color: #fff;
+    color: orange;
 }
 
 .navbar a {
-    color: #fff;
+    color: #651114;
 } 
 
 img
@@ -26,9 +44,13 @@ img
    margin: auto;
 }
 
+navbar-nav a {
+    color: orange;
+}
+
 a, a:hover, a:focus, a:active {
     text-decoration: none;
-    color: #000;
+    color: orange;
 }
 
 .grow { 
@@ -37,4 +59,18 @@ a, a:hover, a:focus, a:active {
     
 .grow:hover { 
     transform: scale(1.1); 
+}
+.headshot {
+    width: 25%;
+    height: 25%;
+    margin-top: 1rem;
+    display: block;
+    border-radius: 75%;
+    border: 2px solid #651114;
+    box-shadow: 0 0 10px 5px #651114;
+}
+
+.brand-logo {
+    width: 3rem;
+    height: 3rem;
 }
