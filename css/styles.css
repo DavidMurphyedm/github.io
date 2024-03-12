@@ -17,21 +17,21 @@
         }
 
 body{
-    background-color: #d2232a;
+    background-color: slategray;
 }
 
 nav, .nav{
-    background-color:  #651114;
+    background-color:  slategray;
     
 
 }
 
 
 #cont {
-    background-color: orange;
+    background-color: slategray;
 }
 .nav-link {
-    color: orange;
+    color: #651114;
 }
 
 .navbar a {
@@ -44,13 +44,22 @@ img
    margin: auto;
 }
 
-navbar-nav a {
-    color: orange;
+.skills {
+    margin-left: 2rem;
+}
+
+
+.navbar-nav {
+    margin-left: 2rem;
+}
+
+.navbar-nav a {
+    color: black;
 }
 
 a, a:hover, a:focus, a:active {
     text-decoration: none;
-    color: orange;
+    color: black;
 }
 
 .grow { 
@@ -72,5 +81,5 @@ a, a:hover, a:focus, a:active {
 
 .brand-logo {
     width: 3rem;
-    height: 3rem;
+    height: 2rem;
 }
