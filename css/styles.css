@@ -71,13 +71,13 @@ a, a:hover, a:focus, a:active {
     transform: scale(1.1); 
 }
 .headshot {
-    width: 25%;
-    height: 25%;
+    width: 8%;
+    height: 10%;
     margin-top: 1rem;
     display: block;
     border-radius: 75%;
-    border: 2px solid #651114;
-    box-shadow: 0 0 10px 5px #651114;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px 5px #000;
 }
 
 .brand-logo {
